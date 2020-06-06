@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubarak Products</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Top menu bar with search -->
+
+  <div class="topm pt-1 pb-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 text-light fonti">
+          <i class="fa fa-facebook mx-3"></i>
+          <i class="fa fa-twitter mx-3"></i>
+        </div>
+        <div class="col-8 ">
+          <form class="form-inline searchsi d-flex flex-row-reverse" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2nd menu bar with logo -->
+
+  <div class="menu1">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-3">
+          <a href="index.html">
+            <img src="images/mubarak_logo.png" alt="" width="230"  >
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-9 d-flex flex-row-reverse">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active mx-4">
+                  <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="order.html">ORDER</a>
+                </li>
+                <li class="nav-item dropdown mx-4">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="qurantable.html" style="font-weight: 200px; color: #98D548;">QURAN TABLE</a>
+                    <a class="dropdown-item" href="wazoostool.html"  style="font-weight: 200px; color: #98D548;">WAZOO STOOL</a>
+                    <a class="dropdown-item" href="sutrah.html"  style="font-weight: 200px; color: #98D548;">SUTRAH</a>
+                  </div>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="contactus.html">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="caro">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/01.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/02.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/03.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/04.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+<!-- content -->
+<div class="content">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <h2 class="conabo">
+                  OUR PRODUCTS
+              </h2>
+          </div>
+      </div>
+  </div>
+</div>
+ <!-- /* products */ -->
+<div class="product-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center ">
+        <div class="card">
+          <img src="Images/Mubarak_Table.png" class="card-img-top" alt="Mubarak_Table">          
+          <div class="card-body">
+            <h5 class="card-title">Mubarak Table</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>           
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center">
+        <div class="card ">
+          <img src="Images/Mubarak_Curved_Table.png" class="card-img-top" alt="Mubarak_Curved_Table">
+          <div class="card-body">
+            <h5 class="card-title">Mubarak Curved Table</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="product-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center ">
+        <div class="card">
+          <img src="Images/Stool for Wazu S.11.png" class="card-img-top" alt="Mubarak_Table_stool_for_wazu_s_11">
+          <div class="card-body">
+            <h5 class="card-title">Stool for Wazu S.11</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center">
+        <div class="card ">
+          <img src="Images/Stool for Wazu S.12.png" class="card-img-top" alt="Mubarak_Curved_Table">
+          <div class="card-body">
+            <h5 class="card-title">Stool for Wazu S.12</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center ">
+        <div class="card">
+          <img src="Images/Stool for Wazu S.8.png" class="card-img-top" alt="Stool_for_Wazu_S_8">
+          <div class="card-body">
+            <h5 class="card-title">Stool for Wazu S.8</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center">
+        <div class="card ">
+          <img src="Images/Mubarak Sutrah.png" class="card-img-top" alt="Mubarak_Sutrah">
+          <div class="card-body">
+            <h5 class="card-title">Mubarak Sutrah</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center ">
+        <div class="card">
+          <img src="Images/Quran Table.png" class="card-img-top" alt="Quran_Table">
+          <div class="card-body">
+            <h5 class="card-title">Quran Table</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 py-4 text-center">
+        <div class="card ">
+          <img src="Images/Mubarak best view rehal.png" class="card-img-top" alt="Mubarak_best_view_rehal">
+          <div class="card-body">
+            <h5 class="card-title">Mubarak best view rehal</h5>
+            <a href="order.html#ordernow" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+
+<div class="footr">
+  <div class="copy">
+    <h5>copyrith 2020 <i class="fa fa-copyright"></i> by Mudasar Iqbal All rights reserved</h5>
+  </div>
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
